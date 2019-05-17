@@ -1,0 +1,9 @@
+{
+  "name": "hexo-theme-pure",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "hexo-neat": "^1.0.4"
+  }
+}
