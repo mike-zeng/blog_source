@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.zengxianhui.site
+url: http://www.zengxianhui.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,16 +78,6 @@ theme: pure
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  - type: git
-    repo: git@github.com:mike-zeng/mike-zeng.github.io.git 
-  - type: baidu_url_submitter
-backup: 
   type: git
-  message: hexo blog source
-  repository:
-     github: git@github.com:mike-zeng/mike-zeng.github.io.git,source
-baidu_url_submit:
-  count: 100
-  host: www.zengxianhui.site
-  token: IU0eKMgyuWZ2akqe
-  path: baidu_urls.txt
+  repo: git@github.com:mike-zeng/mike-zeng.github.io.git 
+  branch: master
